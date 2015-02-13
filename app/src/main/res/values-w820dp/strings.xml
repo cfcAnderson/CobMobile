@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CobMobile Ver-0.14-11</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_frm_login">Login</string>
+    <string name="title_activity_frm_combranca">Cobranca</string>
+    <string name="title_activity_frm_settings">Configuração</string>
+    <string name="title_activity_frm_localizacao">Localização</string>
+    <string name="title_activity_frm_gps">frmGPS</string>
+    <string name="title_activity_my_current_loction_listener">MyCurrentLoctionListener</string>
+    <string name="title_activity_frm_impressao">Impressão</string>
+    <string name="print_string">Imprimir</string>
+    <string name="refresh">Atualizar Lista</string>
+    <string name="enviarCobranca">Enviar Cobranca</string>
+    <string name="buscaCobranca">Busca Cobranca</string>
+    <string name="legenda">Legenda</string>
+
+</resources>

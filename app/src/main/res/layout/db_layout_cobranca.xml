@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imgPago"
+            android:background="@drawable/check"
+            android:maxHeight="25dp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imgSend"
+            android:background="@drawable/check_double"
+            android:visibility="visible"
+            android:maxHeight="25dp"
+            android:layout_marginLeft="-25dp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imgAdiado"
+            android:background="@drawable/check_vermelho"
+            android:layout_marginLeft="-25dp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imgAdiadoEnviado"
+            android:layout_marginLeft="-25dp"
+            android:background="@drawable/check_double_vermelho" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/txtCliente"
+            android:gravity="left"
+            android:paddingLeft="0dp"
+            android:layout_marginLeft="-25dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tbrFone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtFone1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtFone2"
+            android:layout_marginLeft="10dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Vlr. Vencido"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/txtVlAnterior" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Vlr. A. Vencer"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/txtVlPeriodo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Vlr. Total"
+                android:id="@+id/textView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/txtVlTotal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="79dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Vlr. Pago"
+                android:id="@+id/textView4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/txtVlPago" />
+        </LinearLayout>
+
+    </TableRow>
+
+</LinearLayout>

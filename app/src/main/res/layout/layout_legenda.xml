@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutLegenda"
+        android:layout_margin="10dp">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imgPago"
+                android:background="@drawable/check" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Pago"
+                android:id="@+id/textView"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView"
+                android:background="@drawable/check_double" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Pago e Enviado"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView2"
+                android:background="@drawable/check_vermelho" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Proxima Data"
+                android:id="@+id/textView3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView3"
+                android:background="@drawable/check_double_vermelho" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Proxima Data e Enviado"
+                android:id="@+id/textView4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp" />
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout>

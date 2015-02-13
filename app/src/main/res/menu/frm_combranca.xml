@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.cfcsystem.fatcobmobile.frmCobranca" >
+    <item android:id="@+id/action_settings"
+        android:title="@string/refresh"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/enviarCobranca"
+        android:title="@string/enviarCobranca"
+        android:orderInCategory="99"
+        android:showAsAction="never"/>
+    <item android:id="@+id/legenda"
+        android:title="@string/legenda"
+        android:orderInCategory="97"
+        android:showAsAction="never"/>
+    <item android:id="@+id/buscaCobranca"
+        android:title="@string/buscaCobranca"
+        android:orderInCategory="98"
+        android:showAsAction="never"/>
+
+
+
+</menu>
